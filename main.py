@@ -392,40 +392,53 @@
 
 
 
-sub = "f"
-string = 'fgfg'
+# sub = "f"
+# string = 'fgfg'
 
-count = string.count(sub, 0, len(string))
+# count = string.count(sub, 0, len(string))
 
-print(count)
-
-
-
-
-
-
-d = 't'
-
-print(d.count('ttt'))
-
-
-s = "e"
-print(s.count(('exel')))
-
-
-
-
-r = 'ппривет'
-
-print(r.count('п', ), 'п')
-
-
-h = '111yy666666yy'
-print(h.find('y', 5, 7), 'y')
+# print(count)
 
 
 
 
 
-word = 'hellp'
-print(word.find('l',3, 4))
+
+# d = 't'
+
+# print(d.count('ttt'))
+
+
+# s = "e"
+# print(s.count(('exel')))
+
+
+
+
+# r = 'ппривет'
+
+# print(r.count('п', ), 'п')
+
+
+# h = '111yy666666yy'
+# print(h.find('y', 5, 7), 'y')
+
+
+
+
+
+# word = '01234'
+# # print(word.find('l',3, 4))
+# # print(word.find('l'))
+# print(word.find('3'), 'rtttttttttt')
+
+# qq = 'goodbuy'
+
+# print(qq.index('o'), 'o')
+
+
+# print(qq.rindex('o'), 'o')
+
+
+
+
