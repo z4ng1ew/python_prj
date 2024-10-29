@@ -102,8 +102,7 @@
 #
 # h_12 = h_24 % 12
 # print(h_12, "h_12,")
-
-
+from dataclasses import replace
 
 # # Пример использования оператора **=
 # x = 2
@@ -433,12 +432,69 @@
 # print(word.find('3'), 'rtttttttttt')
 
 # qq = 'goodbuy'
-
+#
 # print(qq.index('o'), 'o')
-
-
+#
+#
 # print(qq.rindex('o'), 'o')
 
 
+# str1 = '12345'
+#
+# print(str1.replace('2', '9'))
+#
+#
+# str2 = 'нижний регистр'
+#
+# print(str2.upper())
+#
+#
+# str2 = 'ВЕРХНИЙ верхний регистр'
+#
+# print(str2.lower())
+#
+#
+# print(str2.replace('ВЕРХНИЙ', 'перевод'))
+#
+#
+# S = 'Qwerty Qwerty'
+#
+# l = 'loweR loweR'
+#
+# print(S.capitalize())
+#
+# print(l.title())
 
 
+
+#
+# word = 'ssss'
+#
+# digit = '123'
+#
+# alnumber = '123aaa'
+#
+# print(word.isalpha())
+# print(digit.isdigit())
+#
+# print(alnumber.isalnum())
+#
+#
+#
+# p = '   probel          f'
+#
+# print(p.strip(), 's', end = ' ')
+
+
+#
+str3 = '123 456 789 10 .'
+#
+# print(str3.startswith('123'))
+# print('123 456 789 10 .'.startswith('1'))
+# print(str3.endswith(' .'))
+
+
+
+print(str3.removeprefix('123'))
+print('123 456 789 10 .'.startswith('1'))
+print(str3.removesuffix(' .'))
