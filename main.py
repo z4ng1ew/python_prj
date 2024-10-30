@@ -48,7 +48,7 @@
 # print(y, 'gg')
 #
 #
-# print(x, "procent")
+# print(x, "pro cent")
 #
 #
 # n = 10
@@ -102,7 +102,7 @@
 #
 # h_12 = h_24 % 12
 # print(h_12, "h_12,")
-from dataclasses import replace
+
 
 # # Пример использования оператора **=
 # x = 2
@@ -487,7 +487,7 @@ from dataclasses import replace
 
 
 #
-str3 = '123 456 789 10 .'
+# str3 = '123 456 789 10 .'
 #
 # print(str3.startswith('123'))
 # print('123 456 789 10 .'.startswith('1'))
@@ -495,6 +495,69 @@ str3 = '123 456 789 10 .'
 
 
 
-print(str3.removeprefix('123'))
-print('123 456 789 10 .'.startswith('1'))
-print(str3.removesuffix(' .'))
+# print(str3.removeprefix('123'))
+# print('123 456 789 10 .'.startswith('1'))
+# print(str3.removesuffix(' .'))
+
+
+
+# bots_start_1000 = 1000
+# lose_bots_2 = 2
+# add_bots_3 = 3
+# days_30 = 30
+#
+# bots_today  = bots_start_1000 + days_30 *(add_bots_3 - lose_bots_2)
+#
+# bots_today_2  = bots_start_1000 -  (days_30 * lose_bots_2)
+#
+#
+# print(bots_today, 'bots_today')
+# print(bots_today_2, 'bots_today_2')
+
+
+
+# katet_dlinniy = 4
+# katet_korotkiy = 3
+#
+#
+# kk_2 = katet_korotkiy * katet_korotkiy
+#
+# kd_2 = katet_dlinniy * katet_dlinniy
+#
+#
+# summa = kd_2 + kk_2
+#
+#
+#
+# gipotenuza = summa ** 0.5
+#
+# print(int(gipotenuza), 'gipo')
+#
+# g = summa //  5
+#
+# print(int(g), 'gipo')
+#
+# dop = 1.5  + 1.5
+#
+# dop1 = int(dop)  # Преобразование dop в int
+#
+# res = dop1 + g
+
+# print(int(res), 'gipo')
+
+
+
+
+S_yra = 7*9
+
+radius_alex = 9 / 2
+
+print(radius_alex)
+
+
+
+
+
+
+
+
